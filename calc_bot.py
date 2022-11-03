@@ -4,7 +4,6 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler
 from calc_def import *
 
-
 with open("token.txt", "r", encoding = "UTF-8") as num_token:
     token = num_token.read()
 
